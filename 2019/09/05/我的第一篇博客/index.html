@@ -8,17 +8,17 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Java中Map转换为List | 技术博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="``@Test` public void testMap2List() ``throws Exception{ ``Map&amp;lt;String, String&amp;gt; map = ``new HashMap&amp;lt;String, String&amp;gt;(); ``map.put(``&amp;quot;1&amp;quot;``, ``&amp;quot;AA&amp;quot;``); ``map.put(``&amp;quot;2&amp;q">
+  <meta name="description" content="12345678910111213141516@Testpublic void testMap2List() throws Exception&amp;#123;    Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;();    map.put(&quot;1&quot;, &quot;AA&quot;);    map.put(&quot;2&quot;, &quot;BB&quot;);    m">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Java中Map转换为List">
 <meta property="og:url" content="http://yoursite.com/2019/09/05/我的第一篇博客/index.html">
 <meta property="og:site_name" content="技术博客">
-<meta property="og:description" content="``@Test` public void testMap2List() ``throws Exception{ ``Map&amp;lt;String, String&amp;gt; map = ``new HashMap&amp;lt;String, String&amp;gt;(); ``map.put(``&amp;quot;1&amp;quot;``, ``&amp;quot;AA&amp;quot;``); ``map.put(``&amp;quot;2&amp;q">
+<meta property="og:description" content="12345678910111213141516@Testpublic void testMap2List() throws Exception&amp;#123;    Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;();    map.put(&quot;1&quot;, &quot;AA&quot;);    map.put(&quot;2&quot;, &quot;BB&quot;);    m">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-09-05T16:13:03.314Z">
+<meta property="og:updated_time" content="2019-09-05T16:16:54.309Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java中Map转换为List">
-<meta name="twitter:description" content="``@Test` public void testMap2List() ``throws Exception{ ``Map&amp;lt;String, String&amp;gt; map = ``new HashMap&amp;lt;String, String&amp;gt;(); ``map.put(``&amp;quot;1&amp;quot;``, ``&amp;quot;AA&amp;quot;``); ``map.put(``&amp;quot;2&amp;q">
+<meta name="twitter:description" content="12345678910111213141516@Testpublic void testMap2List() throws Exception&amp;#123;    Map&amp;lt;String, String&amp;gt; map = new HashMap&amp;lt;String, String&amp;gt;();    map.put(&quot;1&quot;, &quot;AA&quot;);    map.put(&quot;2&quot;, &quot;BB&quot;);    m">
   
     <link rel="alternative" href="/atom.xml" title="技术博客" type="application/atom+xml">
   
@@ -174,20 +174,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>``@Test`</p>
-<p><code>public</code> <code>void</code> <code>testMap2List() ``throws</code> <code>Exception{</code></p>
-<p><code>``Map&lt;String, String&gt; map = ``new</code> <code>HashMap&lt;String, String&gt;();</code></p>
-<p><code>``map.put(``&quot;1&quot;``, ``&quot;AA&quot;``);</code></p>
-<p><code>``map.put(``&quot;2&quot;``, ``&quot;BB&quot;``);</code></p>
-<p><code>``map.put(``&quot;3&quot;``, ``&quot;CC&quot;``);</code></p>
-<p><code>``map.put(``&quot;4&quot;``, ``&quot;DD&quot;``);</code></p>
-<p><code>``Collection&lt;String&gt; valueCollection = map.values();</code></p>
-<p><code>``final</code> <code>int</code> <code>size = valueCollection.size();</code></p>
-<p><code>``List&lt;String&gt; valueList = ``new</code> <code>ArrayList&lt;String&gt;(valueCollection);</code></p>
-<p><code>``String[] valueArray = ``new</code> <code>String[size];</code></p>
-<p><code>``map.values().toArray(valueArray);</code></p>
-<p>`}``</p>
-
+        <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">testMap2List</span><span class="params">()</span> <span class="keyword">throws</span> Exception</span>&#123;</span><br><span class="line">    Map&lt;String, String&gt; map = <span class="keyword">new</span> HashMap&lt;String, String&gt;();</span><br><span class="line">    map.put(<span class="string">"1"</span>, <span class="string">"AA"</span>);</span><br><span class="line">    map.put(<span class="string">"2"</span>, <span class="string">"BB"</span>);</span><br><span class="line">    map.put(<span class="string">"3"</span>, <span class="string">"CC"</span>);</span><br><span class="line">    map.put(<span class="string">"4"</span>, <span class="string">"DD"</span>);</span><br><span class="line"> </span><br><span class="line">    Collection&lt;String&gt; valueCollection = map.values();</span><br><span class="line">    <span class="keyword">final</span> <span class="keyword">int</span> size = valueCollection.size();</span><br><span class="line"> </span><br><span class="line">    List&lt;String&gt; valueList = <span class="keyword">new</span> ArrayList&lt;String&gt;(valueCollection);</span><br><span class="line"> </span><br><span class="line">    String[] valueArray = <span class="keyword">new</span> String[size];</span><br><span class="line">    map.values().toArray(valueArray);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
       
 
       
